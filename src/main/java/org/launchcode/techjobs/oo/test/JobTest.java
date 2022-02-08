@@ -1,8 +1,7 @@
 package org.launchcode.techjobs.oo.test;
 
-import org.junit.Before;
-import org.junit.Test;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import org.launchcode.techjobs.oo.*;
@@ -63,7 +62,7 @@ public class JobTest {
         Job job = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality " +
                 "control"), new CoreCompetency("Persistence"));
         assertEquals("\n" +
-                "ID: 1" +
+                "ID: 4" +
                 "\nName: Product tester" +
                 "\nEmployer: ACME" +
                 "\nLocation: Desert" +
@@ -77,7 +76,7 @@ public class JobTest {
         Job job = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality " +
                 "control"), new CoreCompetency(""));
         assertEquals("\n" +
-                "ID: 1" +
+                "ID: 3" +
                 "\nName: Product tester" +
                 "\nEmployer: ACME" +
                 "\nLocation: Desert" +
